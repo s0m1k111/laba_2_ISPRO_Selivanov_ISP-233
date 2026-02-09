@@ -1,0 +1,25 @@
+# БЫСТРАЯ ШПАРГАЛКА
+
+# Основные команды:
+git init                    # Инициализация
+git add .                   # Добавить всё
+git commit -m "msg"         # Создать коммит
+git status                  # Проверить статус
+git log --oneline           # История
+
+# Ветки:
+git branch                  # Список веток
+git switch -c new-branch    # Создать и перейти
+git switch main             # Перейти на main
+git branch -d branch-name   # Удалить ветку
+
+# Удаленный репозиторий:
+git remote add origin URL   # Подключить
+git push -u origin main     # Первая отправка
+git push                    # Отправить изменения
+git pull                    # Получить изменения
+
+# .gitignore для .NET:
+bin/
+obj/
+.vs/
